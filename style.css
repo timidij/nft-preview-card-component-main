@@ -1,0 +1,109 @@
+@font-face{
+    font-family: outfit;
+    src: url(./Outfit-VariableFont_wght.ttf);
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: outfit, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: auto;
+}
+main{
+    
+    font-size: 0.7em;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 50px;
+}
+.eti_img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.equi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.mid{
+    width: 80%;
+}
+.mid p{
+    color: hsl(215, 51%, 70%);
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.cost{
+    display: flex;
+
+}
+.days{
+    display: flex;
+    margin-left: 30%;
+}
+.last p{
+    color: hsl(215, 51%, 70%);
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.last span{
+    color: hsl(0, 0%, 100%);
+}
+.sub{
+    width: 60px;
+    margin-left: 5px;
+    color: hsl(215, 51%, 70%);
+    padding-top: 3px;
+}
+.eth{
+    width: 70px;
+    margin-left: 5px;
+    padding-top: 5px;
+    color: hsl(178, 100%, 50%);
+}
+.last{
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px; 
+    
+}
+.icon{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    
+   
+}
+.hori{
+    color: hsl(215, 32%, 27%);
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+@media  (max-width:350px) {
+    
+    main{
+        width: 250px;
+    }
+}
